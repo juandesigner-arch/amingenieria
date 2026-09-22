@@ -1,0 +1,12 @@
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.amingenieriapro\.com$ [NC]
+RewriteRule ^ https://amingenieriapro.com%{REQUEST_URI} [R=301,L,NE]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
+RewriteRule ^ https://amingenieriapro.com%{REQUEST_URI} [R=301,L,NE]
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html(?:[?\s]) [NC]
+RewriteRule ^(.*/)?index\.html$ https://amingenieriapro.com/$1 [R=301,L,NE]
+</IfModule>
