@@ -254,6 +254,9 @@
   <url>
     <loc>https://amingenieriapro.com/servicios/concepto-uso-del-suelo/</loc>
     <lastmod>2026-09-22</lastmod>
+    <image:image>
+      <image:loc>https://amingenieriapro.com/assets/catalogo/tramite-concepto-uso-de-suelos.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://amingenieriapro.com/servicios/diagnostico-cumplimiento-normativo/</loc>
@@ -338,14 +341,23 @@
   <url>
     <loc>https://amingenieriapro.com/servicios/plan-de-emergencia/</loc>
     <lastmod>2026-09-22</lastmod>
+    <image:image>
+      <image:loc>https://amingenieriapro.com/assets/catalogo/plan-de-emergencias-y-desastres.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://amingenieriapro.com/servicios/plan-gestion-integral-residuos-pgirs/</loc>
     <lastmod>2026-09-22</lastmod>
+    <image:image>
+      <image:loc>https://amingenieriapro.com/assets/catalogo/pgirs.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://amingenieriapro.com/servicios/plan-saneamiento-basico/</loc>
     <lastmod>2026-09-22</lastmod>
+    <image:image>
+      <image:loc>https://amingenieriapro.com/assets/catalogo/plan-de-saneamiento-basico.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://amingenieriapro.com/servicios/planos-arquitectonicos-levantamientos/</loc>
